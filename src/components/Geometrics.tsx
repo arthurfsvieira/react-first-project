@@ -1,6 +1,6 @@
 function Square () {
     return(
-        <div className="w-52 h-52 bg-orange-500 text-white">
+        <div className="w-52 h-52 bg-red-500 text-white">
             Text inside my square.
         </div>
     );
