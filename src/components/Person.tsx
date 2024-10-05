@@ -1,19 +1,22 @@
-export const Person = () => {
-    const data = {
-        name: "Franz Kafka",
-        avatar: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Franz_Kafka%2C_1923.jpg/800px-Franz_Kafka%2C_1923.jpg",
-        role: ["Writer", "Poet"]
-    }
-    
-    
+type Props = {
+    name: string,
+    avatar: string,
+    roles:string[]
+}
+
+export const Person = ({name, avatar, roles}: Props) => {  
     return (
-        <>
-            <h1>{data.name}</h1>
+        <div className="p-3">
+            <h1>{name}</h1>
             <img 
-            src={data.avatar} 
-            alt={data.name}
-            className="w-56 border rounded-lg"
+            src={avatar} 
+            alt={name}
+            className="w-40"
             />
-        </>
+            <ul>
+                <li>{roles[0]}</li>
+                <li>{roles[1]}</li>
+            </ul>
+        </div>
     );
 }
