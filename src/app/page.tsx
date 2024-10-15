@@ -16,6 +16,9 @@ function Page (){
         </>
       </Card>
 
+      <Circle></Circle>
+      <Square></Square>
+
     </div>
   );
 }
