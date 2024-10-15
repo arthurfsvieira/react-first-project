@@ -16,7 +16,7 @@ function Page (){
         </>
       </Card>
 
-      <img src="https://upload.wikimedia.org/wikipedia/en/9/91/The_Strokes_-_Comedown_Machine.jpg" alt="" />
+      <img className="border-4 border-dotted border-yellow-200" src="https://upload.wikimedia.org/wikipedia/en/9/91/The_Strokes_-_Comedown_Machine.jpg" alt="" />
 
     </div>
   );
