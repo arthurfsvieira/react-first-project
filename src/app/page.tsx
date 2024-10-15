@@ -16,8 +16,7 @@ function Page (){
         </>
       </Card>
 
-      <Circle></Circle>
-      <Square></Square>
+      <img src="https://upload.wikimedia.org/wikipedia/en/9/91/The_Strokes_-_Comedown_Machine.jpg" alt="" />
 
     </div>
   );
