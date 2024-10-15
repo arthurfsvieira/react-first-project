@@ -8,7 +8,7 @@ function Square () {
 
 export const Circle = () => {
     return (
-        <div className="w-52 h-52 bg-orange-500 text-white rounded-full">
+        <div className="w-52 h-52 bg-blue-500 text-white rounded-full">
             Text inside my circle.
         </div>
     );
