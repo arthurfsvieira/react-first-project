@@ -39,3 +39,4 @@ Next Steps:
 - Learn Components;
 - Learn Props;
 - Learn insert TypeScript code;
+- Solve Tailwind CSS CDN problems;
